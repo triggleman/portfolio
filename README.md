@@ -1,7 +1,9 @@
 # portfolio
 
-![](./img/screenshot1)
+##images
 
-![](./img/screenshot2)
+![](./img/screenshot1.png)
 
-![](./img/screenshot3)
+![](./img/screenshot2.png)
+
+![](./img/screenshot3.png)
