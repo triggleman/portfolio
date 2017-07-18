@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<title>Todd Riggleman</title>
 	<link rel="stylesheet" href="./style.css">
@@ -9,85 +11,83 @@
 	<script type="text/javascript" src="./js/main.js"></script>
 </head>
 <body>
-	<div class="container">
-		<div class="mainheader">
+		<nav>
+			<div class="nav">
 			<h1>Todd Riggleman</h1>
-			<h2> - Full Stack Web Developer - </h2>
+			<div class="nav-links">
+				<a href="#skills" class="hvr-grow">Skills</a>
+				<a href="#aboutme" class="hvr-grow">About Me</a>
+				<a href="#projects" class="hvr-grow">Projects</a>
+				<a href="#contact" class="hvr-grow">Contact</a>
+			</div>
+		</nav>
+	</div>
+		<section class="first">
+			<h1 class="headername">Todd Riggleman</h1>
+			<h2 class="headersubname"> - Full Stack Web Developer - </h2>
+		</section>
+		<section class="second" id="skills">
+			<h1 class="skillsh1">Skills</h1>
+			<div class="skillscontainer">
+				<div class="frontend">
+					<h1>Front-End</h1>
+					<p>HTML</p>
+					<p>CSS</p>
+					<p>Javascript</p>
+					<p>jQuery</p>
+					<p>Ajax</p>
+				</div>
+			<div class="backend">
+				<h1>Back-End</h1>
+				<p>Node.js</p>
+				<p>SQL</p>
+				<p>Ruby</p>
+				<p>Ruby on Rails</p>
+			</div>
+			<div class="otherskills">
+				<h1>Other Skills</h1>
+				<p>FlexBox</p>
+				<p>Adobe Photoshop</p>
+				<p>Adobe Lightroom</p>
+				<p>Final Cut Pro</p>
+			</div>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-			<h3>My Projects</h3>
-		<div class="projects">
-			<div class="box1"><p>Project 1</p></div>
-			<div class="box2"><p>Project 2</p></div>
-			<div class="box3"><p>Project 3</p></div>
-		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<div class="aboutMe">
-			<h2>About Me</h2>
-			<br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos saepe architecto explicabo veritatis fuga, molestiae neque ratione quaerat, qui sint et sed itaque eveniet, minima porro! Quidem culpa mollitia nisi!</p>
-		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<div class="contactMe">
-			<a href="">LinkedIn</a>
-			<a href="">GitHub</a>
-			<a href="">Email</a>
-		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+
+		</section>
+		<section class="third" id="projects">
+			<h1> Projects </h1>
+			<div class="project-1">
+				<a href="https://whatsyourgym.herokuapp.com/">
+					<img src="./images/wed-icon-copy.png" class="hvr-grow"></a>
+					<a href="https://github.com/triggleman/project-2">
+						<img src="./images/github-white.png" class="hvr-grow">
+					</a>
+			</div>
+
+		</section>
 
 
-</div>
-		
+
+
+
+
+
+		<footer class="contectme" id="contact">
+			<h1 class="contact-me">Contact Me</h1>
+			<div class="contact-button">
+				<a href="https://github.com/triggleman">
+					<img src="./images/github.png" class="hvr-grow">
+				</a>
+				<a href="www.linkedin.com/in/triggleman">
+					<img src="./images/linkedin.png" class="hvr-grow">
+				</a>
+				<a href="mailto:toddriggleman@gmail.com">
+					<img src="./images/mail.png" class="hvr-grow">
+				</a>
+			</div>
+			<p class="footer-resume" ><a href="#">Resume</a></p>
+
+		</footer>
+
 </body>
 </html>
