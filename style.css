@@ -59,6 +59,13 @@ nav h1 {
 .aboutme {
 height: 200px;
 }
+.me {
+	height: 150px;
+	width: auto;
+	border-radius: 10px;
+	position: relative;
+	left: 46%;
+}
 .aboutme h1 {
 	text-align: center;
 	font-family: 'Quicksand',sans-serif;
